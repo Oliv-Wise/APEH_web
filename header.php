@@ -1,6 +1,7 @@
 <header>
   <div class="banner">
     <img src="images/champs-elysees-paris.jpg" alt="Vue des Champs-Élysées à Paris" class="banner-img" />
+    <small class="img-credit">Crédit photo : terre.tv</small>
     <div class="overlay-content">
       <img src="images/logo_apeh.png" alt="Logo APEH" class="logo-apeh" />
       <h1 class="site-title">APEH-FRANCE</h1>
