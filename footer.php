@@ -44,4 +44,9 @@
     modal.style.display = 'none';
   }
 </script>
+
+<div class="footer-bottom" style="text-align: center; font-size: 0.9em; padding: 10px 0;">
+  <a href="mentions-legales.php" style="color: #333; text-decoration: underline;">Mentions légales</a>
+</div>
+
 </footer>
