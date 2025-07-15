@@ -7,7 +7,7 @@
     <meta name = "description" content="Association des professionnels et étudiants haïtiens en France (APEH-France).">
     <meta name="keywords" content="APEH, étudiants haïtiens, diaspora, solidarité, France, association">
     <meta name="author" content="APEH-France">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5">
     <title>APEH-France - Accueil</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -19,7 +19,7 @@
     <section>
         <h2>Éditeur du site</h2>
         <p><strong>Nom du site :</strong> APEH-France – Association des Professionnels et Étudiants Haïtiens de France</p>
-        <p><strong>Responsable de la publication :</strong> Steeve Michel (Président de l’association)</p>
+
         <p><strong>Conception, développement et réalisation :</strong> Marvens Oliver Joseph – Développeur web bénévole</p>
     </section>
 
@@ -46,7 +46,7 @@
 
     <section>
         <h2>Crédits</h2>
-        <p>Images appartenant à l'association. Toute autre ressource externe utilisée est créditée dans les pages concernées.</p>
+        <p>Certaines images présentes sur le site appartiennent à l'association. D'autres images ont été générées par intelligence artificielle ou proviennent de ressources externes (par exemple, banques d’images libres de droits). Lorsque c’est le cas, le nom de la ressource ou de l’auteur est indiqué sur la page où l’image apparaît, afin de créditer et respecter les droits d’auteur ou les conditions d’utilisation de ces ressources.</p>
     </section>
 </main>
 <?php include 'footer.php'; ?>
