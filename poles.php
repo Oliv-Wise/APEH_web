@@ -25,7 +25,7 @@ $poles = [
     <meta name="description" content="Association des professionnels et étudiants haïtiens en France (APEH-France).">
     <meta name="keywords" content="APEH, étudiants haïtiens, diaspora, solidarité, France, association">
     <meta name="author" content="APEH-France">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5eve">
     <title>Nos Pôles - APEH-France</title>
     <link rel="stylesheet" href="style.css">
     <script type="module">
@@ -40,42 +40,6 @@ $poles = [
             });
         }
     </script>
-    <style>
-        .poles-container {
-            max-width: 960px;
-            margin: 2rem auto;
-            padding: 2rem;
-            background: #fff;
-            border-radius: 10px;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-        }
-        .pole-card {
-            border-left: 5px solid #007BFF;
-            padding: 1rem 1.5rem;
-            margin-bottom: 1.5rem;
-            background: #f9f9f9;
-            border-radius: 6px;
-        }
-        .pole-card h3 {
-            margin: 0;
-            color: #007BFF;
-            font-size: 1.4em;
-        }
-        .pole-card p {
-            margin: 0.5rem 0 0;
-            color: #333;
-        }
-        .networks {
-            text-align: center;
-            margin-top: 2rem;
-            font-size: 1.2em;
-        }
-        .networks a {
-            margin: 0 1rem;
-            text-decoration: none;
-            color: #007BFF;
-        }
-    </style>
 </head>
 <body>
     <header>
@@ -99,21 +63,6 @@ $poles = [
 </div>
 
     </main>
-    <style>
-        .zoom-effect {
-            transition: transform 0.3s ease-in-out;
-        }
-        .zoom-effect:hover {
-            transform: scale(1.05);
-        }
-        .pole-card {
-            transition: box-shadow 0.3s ease-in-out;
-        }
-        .pole-card:hover {
-            box-shadow: 0 4px 20px rgba(0, 123, 255, 0.2);
-            transform: scale(1.05);
-        }
-    </style>
 
         <div class="networks">
             <p><strong>Nos pages / Pôle de communication :</strong></p>

@@ -1,49 +1,16 @@
-<?php
-$images = [
-    'images/champs-elysees-paris.jpg',
-    'images/citadelle_Laferrière.jpg',
-    'images/monument_historique.jpg',
-    'images/Sans-Souci_Palace_front.jpg',
-    'images/Tour2004.jpg',
-    'images/Tour_eiffel.jpg'
-];
-?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5">
+    <meta name="description" content="Association des professionnels et étudiants haïtiens en France (APEH-France).">
+    <meta name="keywords" content="APEH, étudiants haïtiens, diaspora, solidarité, France, association">
+    <meta name="author" content="APEH-France">
     <title>Faire un don - APEH-France</title>
     <link rel="stylesheet" href="style.css">
-    <script type="module">
-        import { startRotation } from './js/lcg.js';
-        const images = <?= json_encode($images, JSON_UNESCAPED_SLASHES) ?>;
-        const header = document.querySelector('header');
-        if (header) {
-            const first = images[Math.floor(Math.random() * images.length)];
-            header.style.backgroundImage = `url('${first}')`;
-            startRotation(images, 7, (newImage) => {
-                header.style.backgroundImage = `url('${newImage}')`;
-            });
-        }
-    </script>
+
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f9;
-            margin: 0;
-            padding: 0;
-            color: #333;
-        }
-
-        header {
-            background-size: cover;
-            background-position: center;
-            color: white;
-            text-align: center;
-            padding: 2rem 0;
-        }
-
+        
         h2 {
             color: #444;
             text-align: center;
@@ -81,16 +48,13 @@ $images = [
     </style>
 </head>
 <body>
-    <header>
-        <h1>Nous Soutenir 🤝</h1>
         <?php include 'header.php'; ?>
-    </header>
 
     <main class="donation-container">
         <h2>Contribuez à nos projets solidaires</h2>
         <p>Votre soutien nous permet de mener à bien nos actions éducatives, culturelles et solidaires.</p>
         <p><strong>Aucune donnée bancaire</strong> n’est traitée ni stockée sur notre site.<br>
-        Les paiements sont <strong>100% sécurisés via HelloAsso</strong>.</p>
+        Les paiements sont <strong>100% gérés via HelloAsso</strong>.</p>
         <iframe id="haWidget" allowtransparency="true"
             src="https://www.helloasso.com/associations/association-des-professionnels-et-etudiants-haitiens-de-france/formulaires/1/widget-bouton">
         </iframe>

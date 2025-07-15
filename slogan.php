@@ -1,13 +1,3 @@
-<?php
-$images = [
-    'images/champs-elysees-paris.jpg',
-    'images/citadelle_Laferrière.jpg',
-    'images/monument_historique.jpg',
-    'images/Sans-Souci_Palace_front.jpg',
-    'images/Tour2004.jpg',
-    'images/Tour_eiffel.jpg'
-];
-?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -16,7 +6,7 @@ $images = [
 <meta name="keywords" content="APEH, étudiants haïtiens, diaspora, solidarité, France, association">
 <meta name="author" content="APEH-France">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5">
     <title>Qui sommes-nous ? - APEH-France</title>
     <link rel="stylesheet" href="style.css">
     <script type="module">
@@ -40,16 +30,6 @@ $images = [
     });
     </script>
     <style>
-        header {
-            min-height: 300px;
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            color: white;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
 
         main.container {
             max-width: 960px;
@@ -67,7 +47,7 @@ $images = [
             to { opacity: 1; transform: translateY(0); }
         }
         .slogan-s p {
-            font-family: 'Arial', sans-serif;
+            font-family: 'Luminari', 'Segoe UI';
             font-size: 1.15em;
             line-height: 1.7;
             color: #333;
@@ -75,7 +55,7 @@ $images = [
         }
 
         .slogan-s h2 {
-            font-family: 'Georgia', serif;
+            font-family: 'Luminari', 'Segoe UI';
             font-size: 1.8em;
             color: #2c3e50;
             margin-top: 2rem;
@@ -201,9 +181,24 @@ $images = [
             </div>
         </article>
         <p>
-            En résumé, le fondement de cette vision est l'amour. Nous croyons que l'amour est la plus grande force qui dirige ce monde. 
+            En résumé, le fondement de cette vision est l'amour.Nous croyons que l'amour est la plus grande force qui dirige ce monde. 
             Il crée une atmosphère positive et encourageante, tout en renforçant les liens entre les individus et en favorisant le sentiment d'appartenance à une communauté solidaire.
         </p>
+    </section>
+    <section class ="values-section">
+        <h2>Nos valeurs fondamentales</h2>
+        <p>
+    Nos actions sont guidées par cinq valeurs fondamentales, réunies dans l'acronyme <strong>AIDER</strong>.  
+    Elles incarnent notre engagement à bâtir une communauté bienveillante, inspirée et solidaire.
+    </p>
+
+        <ul>
+            <li><strong>Amour :</strong> Un sentiment profond d'affection et de bienveillance envers autrui, source de joie et d'épanouissement.</li>
+            <li><strong>Intégrité :</strong> L'honnêteté et l'éthique, essentielles pour bâtir la confiance et maintenir des relations harmonieuses.</li>
+            <li><strong>Dynamique :</strong> Le mouvement et l'évolution, impliquant notre capacité d'adaptation et de flexibilité.</li>
+            <li><strong>Excellence :</strong> L'aspiration à la perfection et l'engagement envers la qualité dans nos actions.</li>
+            <li><strong>Respect :</strong> La reconnaissance de la dignité et des droits des autres, avec une attitude de tolérance et d'acceptation.</li>
+        </ul>
     </section>
     </main>
     <?php include 'footer.php'; ?>

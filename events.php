@@ -1,48 +1,17 @@
-<?php
-$images = [
-    'images/champs-elysees-paris.jpg',
-    'images/citadelle_Laferrière.jpg',
-    'images/monument_historique.jpg',
-    'images/Sans-Souci_Palace_front.jpg',
-    'images/Tour2004.jpg',
-    'images/Tour_eiffel.jpg'
-];
-?>
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="Association des professionnels et étudiants haïtiens en France (APEH-France).">
-<meta name="keywords" content="APEH, étudiants haïtiens, diaspora, solidarité, France, association">
-<meta name="author" content="APEH-France">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="APEH, étudiants haïtiens, diaspora, solidarité, France, association">
+    <meta name="author" content="APEH-France">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5">
     <title>Événements - APEH-France</title>
-
     <link rel="stylesheet" href="style.css">
-    <script type="module">
-        import { startRotation } from './js/lcg.js';
 
-        const images = <?= json_encode($images, JSON_UNESCAPED_SLASHES) ?>;
-        const header = document.querySelector('header');
-
-        if (header) {
-            const first = images[Math.floor(Math.random() * images.length)];
-            header.style.backgroundImage = `url('${first}')`;
-
-            startRotation(images, 5, (newImage) => {
-                header.style.backgroundImage = `url('${newImage}')`;
-            });
-        }
-    </script>    
 </head>
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8">
-    <title>Galerie - APEH-France</title>
-    <link rel="stylesheet" href="style.css">
-</head>
 <body>
     <header>
     <?php include 'header.php'; ?>
@@ -50,7 +19,8 @@ $images = [
     <div style="text-align: center;">
         <h1>Galerie des Événements</h1>
         <p>Découvrez les moments forts de nos événements passés</p>
-    </div><div class="container">
+    </div>
+    <div class="container">
         <div class="gallery">
             <?php
             $imageDir = "images/events/";

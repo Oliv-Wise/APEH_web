@@ -1,12 +1,4 @@
 <?php
-$images = [
-    'images/champs-elysees-paris.jpg',
-    'images/citadelle_Laferrière.jpg',
-    'images/monument_historique.jpg',
-    'images/Sans-Souci_Palace_front.jpg',
-    'images/Tour2004.jpg',
-    'images/Tour_eiffel.jpg'
-];
 ?>
 <!DOCTYPE html>
 <html>
@@ -17,28 +9,15 @@ $images = [
 <meta name="keywords" content="APEH, étudiants haïtiens, diaspora, solidarité, France, association">
 <meta name="author" content="APEH-France">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5">
     <title>Inscription - APEH-France</title>
     <link rel="stylesheet" href="style.css">
-    <script type="module">
-        import { startRotation } from './js/lcg.js';
-        const images = <?= json_encode($images, JSON_UNESCAPED_SLASHES) ?>;
-        const header = document.querySelector('header');
-        if (header) {
-            const first = images[Math.floor(Math.random() * images.length)];
-            header.style.backgroundImage = `url('${first}')`;
-            startRotation(images, 5, (newImage) => {
-                header.style.backgroundImage = `url('${newImage}')`;
-            });
-        }
-    </script>
-
 </head>
 <body>
-    <header>
-        <h1>Devenir membre de l' APEH-France</h1>
+        <h1 style="text-align:center; margin: 1rem 0; color: #1d3650;">Devenir membre de l'APEH-France</h1>
         <?php include 'header.php'; ?>
-    </header>
+    
+
     <main class="container">
     <h2>Formulaire d'inscription</h2>
     <p> Merci de remplir ce formulaire </p>
@@ -151,13 +130,6 @@ $images = [
             color: #333;
         }
 
-        header {
-            background-size: cover;
-            background-position: center;
-            color: white;
-            text-align: center;
-            padding: 2rem 0;
-        }
         h2 {
             color: #444;
             text-align: center;

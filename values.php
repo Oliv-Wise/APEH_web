@@ -18,21 +18,6 @@ $images = [
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Qui sommes-nous ? - APEH-France</title>
     <link rel="stylesheet" href="style.css">
-    <script type="module">
-        import { startRotation } from './js/lcg.js';
-
-        const images = <?= json_encode($images, JSON_UNESCAPED_SLASHES) ?>;
-        const header = document.querySelector('header');
-
-        if (header) {
-            const first = images[Math.floor(Math.random() * images.length)];
-            header.style.backgroundImage = `url('${first}')`;
-
-            startRotation(images, 5, (newImage) => {
-                header.style.backgroundImage = `url('${newImage}')`;
-            });
-        }
-    </script>
 
     <style>
     main.container {
@@ -45,13 +30,13 @@ $images = [
     }
 
     .values-section {
-        font-family: 'Arial', sans-serif;
+        font-family: 'Luminari','Segoe UI';
         color: #333;
         line-height: 1.7;
     }
 
     .values-section h2 {
-        font-family: 'Georgia', serif;
+        font-family: 'Luminari', 'Segoe UI';
         font-size: 2em;
         color:rgb(29, 54, 80);
         margin-bottom: 1rem;

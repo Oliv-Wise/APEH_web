@@ -5,7 +5,7 @@
     <meta name="description" content="Association des professionnels et étudiants haïtiens en France (APEH-France).">
     <meta name="keywords" content="APEH, étudiants haïtiens, diaspora, solidarité, France, association">
     <meta name="author" content="APEH-France">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5">
     <title>Implantation - APEH-France</title>
     <link rel="stylesheet" href="style.css">
 </head>
