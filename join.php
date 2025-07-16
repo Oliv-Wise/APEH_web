@@ -124,7 +124,7 @@ $images = [
     </main>
     <footer>
         <div class="footer-logo" style="display: flex; justify-content: center; align-items: center; margin: 20px 0;">
-            <img src="images/logo_apeh.png" alt="Logo APEH-France" style="width: 50px; height: auto; border-radius: 5px; cursor: pointer;" onclick="zoomImage(this)">
+            <img src="images/logo_apeh.png" alt="Logo APEH-France" style="width: 50px; height: auto; border-radius: 5px; cursor: pointer;" onclick="window.location.href='index.php'">
         </div>
         <p>&copy; <?= date('Y') ?> APEH-France. Tous droits réservés.</p>
         <nav>
