@@ -17,6 +17,18 @@
     <h1>Mentions légales</h1>
 
     <section>
+        <h2>Informations sur l'association</h2>
+        <ul>
+            <li><strong>Dénomination :</strong> ASSOCIATION DES PROFESSIONNELS ET ETUDIANTS HAITIENS DE FRANCE</li>
+            <li><strong>Entreprise active depuis :</strong> 11/05/2023</li>
+            <li><strong>Identifiant SIREN :</strong> 923 557 375</li>
+            <li><strong>Identifiant SIRET du siège :</strong> 923 557 375 00022</li>
+            <li><strong>Catégorie juridique :</strong> 9220 - Association déclarée</li>
+            <li><strong>N° RNA :</strong> W595042228</li>
+            <li><strong>Activité Principale Exercée (APE) :</strong> 94.99Z - Autres organisations fonctionnant par adhésion volontaire</li>
+            <li><strong>Appartenance au champ de l’ESS :</strong> Oui</li>
+            <li><strong>Adresse :</strong> MAISON DES ETUDIANTS CITE SCIENTIFIQUE, 7 AVENUE PAUL LANGEVIN, 59650 VILLENEUVE-D'ASCQ</li>
+        </ul>
         <h2>Éditeur du site</h2>
         <p><strong>Nom du site :</strong> APEH-France – Association des Professionnels et Étudiants Haïtiens de France</p>
 
