@@ -1,0 +1,19 @@
+# === PHP ===
+*.log
+*.cache
+*.tmp
+
+# === Composer ===
+vendor/
+composer.lock
+
+# === Configuration sensible ===
+.env
+
+# === IDE ===
+.vscode/
+.idea/
+
+# === OS ===
+.DS_Store
+Thumbs.db
