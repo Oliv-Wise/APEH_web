@@ -61,9 +61,7 @@ $poles = [
         <?php endforeach; ?>
         
 </div>
-
     </main>
-
         <div class="networks">
             <p><strong>Nos pages / Pôle de communication :</strong></p>
             <a href="https://www.facebook.com/apehfrance509/">Facebook</a> |
