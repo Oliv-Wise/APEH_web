@@ -1,6 +1,7 @@
 <?php
 
 return [
+<<<<<<< HEAD
     'name'            => env('APP_NAME', 'APEH-France'),
     'env'             => env('APP_ENV', 'production'),
     'debug'           => (bool) env('APP_DEBUG', false),
@@ -65,4 +66,27 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View'      => Illuminate\Support\Facades\View::class,
     ],
+=======
+    'name' => env('APP_NAME', 'APEH-France'),
+    'env' => env('APP_ENV', 'production'),
+    'debug' => (bool) env('APP_DEBUG', false),
+    'url' => env('APP_URL', 'http://localhost'),
+    'timezone' => 'Europe/Paris',
+    'locale' => 'fr',
+    'fallback_locale' => 'fr',
+    'faker_locale' => 'fr_FR',
+    'cipher' => 'AES-256-CBC',
+    'key' => env('APP_KEY'),
+    'previous_keys' => [
+        ...array_filter(
+            explode(',', env('APP_PREVIOUS_KEYS', ''))
+        ),
+    ],
+    'maintenance' => [
+        'driver' => 'file',
+    ],
+    'providers' => Illuminate\Support\ServiceProvider::defaultProviders()->merge([
+        App\Providers\AppServiceProvider::class,
+    ])->toArray(),
+>>>>>>> 8016f7055a9b01486f6766ac6bc6554732c86933
 ];
