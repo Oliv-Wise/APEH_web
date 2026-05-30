@@ -88,15 +88,15 @@ try {
     $mail->setFrom('apehfrance.noreply@gmail.com', 'APEH-France');
     $mail->addAddress($email, $prenom);
     $mail->isHTML(true);
-    $mail->Subject = '=?UTF-8?B?' . base64_encode("Bienvenue à l'APEH-France !") . '?=';
+    $mail->Subject = '=?UTF-8?B?' . base64_encode("Bienvenue à APEH-France !") . '?=';
     $mail->Body = "
         <html>
         <head><meta charset='utf-8'></head>
         <body style='font-family:Luminari', 'Segoe UI';'>
-            <h2>Bienvenue à l'APEH-France !</h2>
+            <h2>Bienvenue à APEH-France !</h2>
             <p>Bonjour <strong>{$prenom}</strong>,</p>
             <p>Nous sommes heureux de vous accueillir au sein de notre association.</p>
-            <p>L'APEH-France œuvre pour la solidarité, la réussite et l'intégration des étudiants et professionnels haïtiens en France.</p>
+            <p>APEH-France œuvre pour la solidarité, la réussite et l'intégration des étudiants et professionnels haïtiens en France.</p>
             <p>Nous vous remercions pour votre confiance et espérons vous voir très bientôt à l’un de nos événements !</p>
             <p>➡️ Rejoignez notre groupe WhatsApp : 
             <a href=\"https://chat.whatsapp.com/HpaioVnPftfDqIRhdr4YDU\" target=\"_blank\">cliquer ici</a></p>
