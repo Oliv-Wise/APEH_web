@@ -67,6 +67,7 @@ Route::prefix('admin')->name('admin.')->group(function () {
 
         // Membres inscrits
         Route::get('/membres', [AdminMemberController::class, 'index'])->name('members.index');
-        Route::delete('/membres/{id}', [AdminMemberController::class, 'destroy'])->name('members.destroy');
-    });
+        Route::delete('/membres/{id}', [AdminMemberController::class, 'destroy'])->name('members.destroy');    });
+Route::get('/', function () ;
+    return view('welcome');
 });

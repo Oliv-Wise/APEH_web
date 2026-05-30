@@ -1,14 +1,23 @@
 #!/usr/bin/env php
 <?php
 
+<<<<<<< HEAD
 define('LARAVEL_START', microtime(true));
 
+=======
+use Symfony\Component\Console\Input\ArgvInput;
+
+define('LARAVEL_START', microtime(true));
+
+// Register the Composer autoloader...
+>>>>>>> 8016f7055a9b01486f6766ac6bc6554732c86933
 require __DIR__.'/vendor/autoload.php';
 
 $app = require_once __DIR__.'/bootstrap/app.php';
 
 $kernel = $app->make(Illuminate\Contracts\Console\Kernel::class);
 
+<<<<<<< HEAD
 $status = $kernel->handle(
     $input = new Symfony\Component\Console\Input\ArgvInput,
     new Symfony\Component\Console\Output\ConsoleOutput
@@ -17,3 +26,9 @@ $status = $kernel->handle(
 $kernel->terminate($input, $status);
 
 exit($status);
+=======
+exit($kernel->handle(
+    $input = new ArgvInput,
+    new Symfony\Component\Console\Output\ConsoleOutput
+));
+>>>>>>> 8016f7055a9b01486f6766ac6bc6554732c86933
