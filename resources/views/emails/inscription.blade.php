@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Bienvenue dans l'APEH-France !</title>
+    <title>Bienvenue dans APEH-France !</title>
     <style>
         body { font-family: Arial, sans-serif; background: #f0f4f8; margin: 0; padding: 20px; }
         .container { max-width: 600px; margin: auto; background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1); }

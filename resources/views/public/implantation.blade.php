@@ -10,7 +10,7 @@
         <span class="badge bg-white/20 text-white mb-4">Où nous trouver</span>
         <h1 class="font-display text-4xl md:text-5xl font-bold mb-4">Notre implantation</h1>
         <p class="text-white/80 text-lg max-w-2xl mx-auto">
-            L'APEH-France est basée à la Maison des Étudiants de la Cité Scientifique de Villeneuve-d'Ascq.
+            APEH-France est basée à la Maison des Étudiants de la Cité Scientifique de Villeneuve-d'Ascq.
         </p>
     </div>
 </section>

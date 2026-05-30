@@ -40,7 +40,7 @@
                     <ul class="list-disc list-inside space-y-1 text-gray-600 text-sm mt-3">
                         <li>L'organisation des activités et événements de l'association</li>
                         <li>La communication avec les membres</li>
-                        <li>La gestion interne de l'APEH-France</li>
+                        <li>La gestion interne de APEH-France</li>
                     </ul>
                 </div>
 

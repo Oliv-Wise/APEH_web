@@ -10,7 +10,7 @@
         <span class="badge bg-white/20 text-white mb-4">Rejoignez-nous</span>
         <h1 class="font-display text-4xl md:text-5xl font-bold mb-4">Pourquoi nous rejoindre ?</h1>
         <p class="text-white/80 text-lg max-w-2xl mx-auto">
-            Découvrez tout ce que l'APEH-France peut vous apporter dans votre parcours en France.
+            Découvrez tout ce que APEH-France peut vous apporter dans votre parcours en France.
         </p>
     </div>
 </section>
@@ -32,9 +32,9 @@
         {{-- Témoignage fictif / citation --}}
         <div class="bg-apeh-light rounded-3xl p-10 text-center reveal">
             <p class="text-2xl font-display font-bold text-apeh-blue mb-4">
-                "L'APEH-France m'a permis de trouver ma place en France tout en restant fier de mes racines haïtiennes."
+                "APEH-France m'a permis de trouver ma place en France tout en restant fier de mes racines haïtiennes."
             </p>
-            <p class="text-gray-500 text-sm">— Un membre de l'APEH-France</p>
+            <p class="text-gray-500 text-sm">— Un membre de APEH-France</p>
         </div>
     </div>
 </section>

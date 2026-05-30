@@ -8,7 +8,7 @@
 <section class="bg-gradient-to-br from-apeh-blue to-apeh-dark py-20 text-white">
     <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <span class="badge bg-white/20 text-white mb-4">Documents officiels</span>
-        <h1 class="font-display text-4xl md:text-5xl font-bold mb-4">Statut de l'APEH-France</h1>
+        <h1 class="font-display text-4xl md:text-5xl font-bold mb-4">Statut de APEH-France</h1>
         <p class="text-white/80 text-lg max-w-2xl mx-auto">
             Association déclarée selon la loi 1901, fondée par les étudiants et professionnels haïtiens de France.
         </p>
@@ -29,7 +29,7 @@
                 <p class="leading-relaxed mb-4">La formation à la pratique d'activités au service de l'intérêt général, l'exercice des compétences permettant de surmonter les difficultés de la vie étudiante, l'apport d'une expérience favorable à l'éclosion des qualités en complément des formations proposées par les établissements d'enseignement supérieur, la pratique de l'exercice civique et démocratique, l'ouverture à un réseau diversifié, sont les principaux éléments résumant le rôle des associations étudiantes.</p>
                 <p class="leading-relaxed mb-4">Conscients que leur parcours universitaire connaît, en plus des difficultés classiques des étudiants, celles liées au parcours d'étudiants étrangers, les étudiants haïtiens de Lille ont choisi de se fédérer au sein de structures et autour d'objectifs communs.</p>
                 <p class="leading-relaxed mb-4">Cette association œuvre pour la réussite de ses adhérents, comprenant également l'adaptation et l'intégration sociale des membres de différentes disciplines, cultures et nations.</p>
-                <p class="leading-relaxed mb-8">Approuvons et adoptons librement et solennellement le présent statut comme texte régissant la vie et le fonctionnement de l'APEH-France.</p>
+                <p class="leading-relaxed mb-8">Approuvons et adoptons librement et solennellement le présent statut comme texte régissant la vie et le fonctionnement de APEH-France.</p>
 
                 <h2 class="font-display text-2xl font-bold text-apeh-blue mt-8 mb-4">TITRE I – Dénomination, nature, objectifs</h2>
 

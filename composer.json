@@ -1,6 +1,6 @@
 {
     "name": "apeh-france/apeh-laravel",
-    "description": "Site vitrine modernisé de l'APEH-France",
+    "description": "Site vitrine modernisé de APEH-France",
     "keywords": ["laravel", "apeh", "association"],
     "license": "MIT",
     "require": {

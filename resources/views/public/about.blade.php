@@ -74,7 +74,7 @@
             <span class="badge bg-apeh-red text-white mb-4">Nos actions</span>
             <h2 class="section-title">Nos champs d'activités</h2>
             <p class="section-subtitle">
-                À travers une diversité d'activités sociales, éducatives et culturelles, l'APEH-France agit concrètement pour favoriser l'unité, l'épanouissement et l'intégration.
+                À travers une diversité d'activités sociales, éducatives et culturelles, APEH-France agit concrètement pour favoriser l'unité, l'épanouissement et l'intégration.
             </p>
         </div>
 

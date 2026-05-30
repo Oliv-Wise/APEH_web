@@ -66,7 +66,7 @@
                 <span class="text-2xl flex-shrink-0">🎯</span>
                 <div>
                     <h3 class="font-bold text-apeh-blue mb-2">Réussite académique et professionnelle</h3>
-                    <p class="text-gray-600 text-sm leading-relaxed">Nous voulons que chaque membre de l'APEH-France puisse atteindre ses objectifs académiques et professionnels grâce au soutien de la communauté.</p>
+                    <p class="text-gray-600 text-sm leading-relaxed">Nous voulons que chaque membre de APEH-France puisse atteindre ses objectifs académiques et professionnels grâce au soutien de la communauté.</p>
                 </div>
             </div>
             <div class="flex gap-4 p-6 bg-apeh-light rounded-2xl">

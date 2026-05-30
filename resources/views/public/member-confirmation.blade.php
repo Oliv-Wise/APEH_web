@@ -14,7 +14,7 @@
             </div>
             <h1 class="font-display text-3xl font-bold text-apeh-blue mb-4">Inscription réussie !</h1>
             <p class="text-gray-500 leading-relaxed mb-2">
-                Merci pour votre inscription à l'APEH-France. Votre demande a bien été enregistrée.
+                Merci pour votre inscription à APEH-France. Votre demande a bien été enregistrée.
             </p>
             <p class="text-gray-500 leading-relaxed mb-8">
                 Un email de confirmation vous a été envoyé. Bienvenue dans notre communauté !

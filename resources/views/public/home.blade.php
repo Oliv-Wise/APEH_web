@@ -31,7 +31,7 @@
         {{-- Sous-titre --}}
         <p class="text-lg sm:text-xl md:text-2xl text-white/85 max-w-3xl mx-auto mb-10 leading-relaxed fade-in-up"
            style="animation-delay: 0.2s;">
-            L'APEH-France rassemble les professionnels et étudiants haïtiens de France autour de la solidarité, de la culture et de la réussite.
+            APEH-France rassemble les professionnels et étudiants haïtiens de France autour de la solidarité, de la culture et de la réussite.
         </p>
 
         {{-- CTA Buttons --}}
@@ -84,7 +84,7 @@
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div class="reveal">
                 <span class="badge bg-apeh-light text-apeh-blue mb-4">Notre association</span>
-                <h2 class="section-title">Qui est l'APEH-France ?</h2>
+                <h2 class="section-title">Qui est APEH-France ?</h2>
                 <p class="text-gray-600 leading-relaxed mb-6">
                     Bienvenue dans l'Association des Professionnels et Étudiants Haïtiens de France — une communauté dynamique d'Haïtiens résidant en France, composée d'étudiants et de professionnels engagés.
                 </p>

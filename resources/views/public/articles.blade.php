@@ -10,7 +10,7 @@
         <span class="badge bg-white/20 text-white mb-4">Actualités</span>
         <h1 class="font-display text-4xl md:text-5xl font-bold mb-4">Nos articles</h1>
         <p class="text-white/80 text-lg max-w-2xl mx-auto">
-            Restez informé des actualités, événements et initiatives de l'APEH-France.
+            Restez informé des actualités, événements et initiatives de APEH-France.
         </p>
     </div>
 </section>

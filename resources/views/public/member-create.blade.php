@@ -230,7 +230,7 @@
                                aria-describedby="rgpd-error"
                                {{ old('rgpd_consent') ? 'checked' : '' }}>
                         <label for="rgpd_consent" class="text-sm text-gray-600 leading-relaxed cursor-pointer">
-                            J'accepte que mes données personnelles soient collectées et utilisées par l'APEH-France dans le cadre de la gestion des membres, conformément à la
+                            J'accepte que mes données personnelles soient collectées et utilisées par APEH-France dans le cadre de la gestion des membres, conformément à la
                             <a href="{{ route('privacy') }}" target="_blank" class="text-apeh-accent hover:underline font-medium">politique de confidentialité</a>.
                             Je comprends que je peux demander la suppression de mes données à tout moment.
                             <span class="text-red-500" aria-hidden="true">*</span>

@@ -80,7 +80,7 @@
 
                 <div class="card p-6 mt-6 bg-apeh-blue text-white text-center">
                     <h3 class="font-display font-bold text-lg mb-3">Rejoignez-nous !</h3>
-                    <p class="text-white/80 text-sm mb-4">Devenez membre de l'APEH-France et participez à nos activités.</p>
+                    <p class="text-white/80 text-sm mb-4">Devenez membre de APEH-France et participez à nos activités.</p>
                     <a href="{{ route('member.create') }}"
                        class="bg-white text-apeh-blue font-bold px-4 py-2 rounded-lg text-sm hover:bg-gray-100 transition-colors block">
                         Devenir membre
