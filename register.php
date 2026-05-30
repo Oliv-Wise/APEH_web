@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-        <h1 style="text-align:center; margin: 1rem 0; color: #1d3650;">Devenir membre de l'APEH-France</h1>
+        <h1 style="text-align:center; margin: 1rem 0; color: #1d3650;">Devenir membre d'APEH-France</h1>
         <?php include 'header.php'; ?>
     
 

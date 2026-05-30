@@ -19,7 +19,7 @@ $articles = $stmt->fetchAll(PDO::FETCH_ASSOC);
 </head>
 <body>
     <header>
-        <h1>Articles de l'APEH-France</h1>
+        <h1>Articles d'APEH-France</h1>
         <?php include 'header.php'; ?>
     </header>
     <h1>Nos derniers articles</h1>
