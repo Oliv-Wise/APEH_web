@@ -18,7 +18,7 @@
         {{-- Badge --}}
         <div class="inline-flex items-center gap-2 bg-white/20 backdrop-blur-sm border border-white/30 rounded-full px-4 py-2 text-sm font-medium mb-8 fade-in-up">
             <span>🇭🇹</span>
-            <span>Association loi 1901 – Fondée en 2023</span>
+            <span>Association Fondée en 2023</span>
         </div>
 
         {{-- Titre principal --}}
