@@ -9,7 +9,7 @@ return [
     'locale' => 'fr',
     'fallback_locale' => 'fr',
     'faker_locale' => 'fr_FR',
-    'key' => env('APP_KEY'),
+    'key' => env('APP_KEY', 'base64:aEcwG3tp67rgdiEgJ1pRv1StYy9v8OpAoNk560KcOBc='),
     'cipher' => 'AES-256-CBC',
     'previous_keys' => [
         ...array_filter(

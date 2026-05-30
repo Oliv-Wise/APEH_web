@@ -12,7 +12,31 @@ use App\Http\Controllers\Admin\AuthController;
 use App\Http\Controllers\Admin\DashboardController;
 use App\Http\Controllers\Admin\AdminArticleController;
 use App\Http\Controllers\Admin\AdminMemberController;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Schema;
 
+Route::get('/_ops/check/{token}', function (string $token) {
+    abort_unless(hash_equals('apeh-prod-check-2026-secret-long', $token), 404);
+
+    try {
+        DB::connection()->getPdo();
+
+        return response()->json([
+            'app_booted' => true,
+            'environment' => app()->environment(),
+            'database_default' => config('database.default'),
+            'db_ok' => true,
+            'has_migrations_table' => Schema::hasTable('migrations'),
+            'vite_manifest_exists' => file_exists(public_path('build/manifest.json')),
+        ]);
+    } catch (Throwable $e) {
+        return response()->json([
+            'app_booted' => true,
+            'db_ok' => false,
+            'error' => $e->getMessage(),
+        ], 500);
+    }
+});
 /*
 |--------------------------------------------------------------------------
 | Pages publiques
