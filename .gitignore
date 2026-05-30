@@ -9,7 +9,6 @@ composer.lock
 
 # === Configuration sensible ===
 .env
-db/includes/env.php
 
 # === IDE ===
 .vscode/
